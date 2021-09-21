@@ -1,12 +1,12 @@
 // .src/containers/MoviesPage.js
-import React from 'react';
-import { Route } from 'react-router-dom';
-import MoviesList from '../components/MoviesList';
+import React from "react";
+import { Route } from "react-router-dom";
+import MoviesList from "../components/MoviesList";
 
-const MoviesPage = ({ match, movies }) => (
+const MoviesPage = ({ movies }) => (
   <div>
     <MoviesList movies={movies} />
   </div>
-)
+);
 
-export default MoviesPage
+export default MoviesPage;
